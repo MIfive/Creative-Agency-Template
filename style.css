@@ -1,0 +1,786 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Maven+Pro:400,500,700,900');
+
+@import url('https://fonts.googleapis.com/css?family=Arizonia');
+
+
+
+
+
+/* ===========
+.Common CSS
+=============== */
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+
+p{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+
+
+
+/* ===========
+ Hero Area
+=============== */
+
+
+
+
+.hero-bg{
+    background-image: url(assets/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 90%;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.banner-data img{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    height: 320px;
+    width: 320px;
+}
+
+
+
+
+
+/* ===========
+ Navbar
+=============== */
+
+
+nav.navbar ul {
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    list-style: none;
+}
+
+nav.navbar ul li {
+    display: inline-block;
+}
+
+nav.navbar ul li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 30px;
+    position: relative;
+}
+
+
+nav.navbar ul li a:hover {
+    color: #511de5;
+}
+
+.action-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.action-btn a.boxed-btn {
+    color: #fff;
+    padding: 13px 60px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,    #511de5 , #009eff);
+    display: inline-block;
+}
+
+nav.navbar .col-lg-5 {
+    left: -200px;
+}
+
+
+/* ===========
+ Banner Data
+=============== */
+
+.banner-data-text {
+    padding-top: 200px;
+}
+
+.banner-data-text h2 {
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.banner-data-text h2 span {color: #511de5;}
+
+
+
+
+.banner-data-text a.boxed-btn{
+    color: #061113;
+    padding: 13px 30px;
+    border-radius: 50px;
+    background: #f2f2f2;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.banner-data-text .boxed-btn:hover{
+    background: linear-gradient(90deg,    #511de5 , #009eff);
+    color: #fff; 
+}
+
+.banner-data-text .boxed-btn:hover .svg-inline--fa{
+    color: #fff;
+}
+
+.banner-data-text .boxed-btn .svg-inline--fa{
+    padding-left: 20px;
+    color: #061113;
+    width: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* ===========
+ High light area
+=============== */
+
+
+.high-light-area {
+    height: 230px;
+    background: linear-gradient(90deg,    #511de5 60% , #009eff 100%);
+    position: relative;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.high-light-area h4 {
+    font-weight: 900;
+    margin-top: 80px;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+
+.high-light-area img {
+    position: absolute;
+    top: 60px;
+    right: 190px;
+}
+
+
+p.styled-w {
+    position: absolute;
+    top: -115px;
+    left: 272px;
+    font-size: 200px;
+    font-family: 'Arizonia', cursive;
+    color: #511de5;
+}
+
+
+
+/* ===========
+ Feature box
+=============== */
+.section-padding {
+    padding-top: 150px;
+}
+
+
+.feature-box {
+    box-shadow: 0px 0px 50px #eee;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0 160px 100px; 
+    
+}
+
+
+.feature-box img {
+    position: absolute;
+    right: -130px;
+    height: 600px;
+    width: 700px;
+    bottom: -100px;
+}
+
+.feature-box h3 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.feature-box p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+    color: #000000;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+h2.percentage-number {
+    font-size: 100px;
+    color: #511de5;
+    float: left;
+    font-weight: 900;
+    padding-top: 70px;
+}
+
+p.productivity-text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+    color: #000000;
+    bottom: 0;
+    margin-top: 120px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/* ===========
+ Client logo
+=============== */
+
+.client-section-padding {
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+
+/* ===========
+ Intro section
+=============== */
+
+.intro-section-padding{
+    padding-top: 200px;
+}
+
+.intro-bg{
+    height: 400px;
+    background-color: #FAFAFA;
+    position: relative;
+
+}
+
+.intro-bg:before{
+    content: "";
+    position: absolute;
+    border-bottom: 200px solid #FAFAFA;
+    border-left: 98.8vw solid transparent;
+    top: -200px;
+    left: 0;
+}
+
+.intro-bg:after{
+    content: "";
+    position: absolute;
+    border-top: 200px solid #FAFAFA;
+    border-right: 98.8vw solid transparent;
+    bottom: -200px;
+    right: 0;
+}
+
+
+.intro-bg h3 {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.intro-text a.boxed-btn {
+    color: #061113;
+    padding: 13px 30px;
+    border-radius: 50px;
+    background: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    
+}
+
+
+.intro-bg .boxed-btn:hover{
+    background: linear-gradient(90deg,    #511de5 , #009eff);
+    color: #fff; 
+}
+
+.intro-bg .boxed-btn:hover .svg-inline--fa{
+    color: #fff;
+}
+
+.intro-bg .boxed-btn .svg-inline--fa{
+    padding-left: 5px;
+    color: #061113;
+    width: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.intro-bg h3 {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.intro-bg .boxed-btn {
+    color: #061113;
+    padding: 13px 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing:3px;
+    
+}
+
+.shape-img {
+    position: relative;
+    z-index: 99;
+}
+
+.text-inside-shape {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #fff;
+}
+
+.intro-text {
+    margin-top: 80px;
+}
+
+
+
+
+/* ===========
+ effi-section
+=============== */
+
+.effi-text-wrapper h3 {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.effi-text-wrapper p{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    margin: 50px 0;
+}
+
+
+.efficiency-section-padding {
+    padding-top: 300px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+.heading-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.heading-list li{
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.heading-list li:last-child{
+    padding-bottom: 0;
+}
+
+.heading-list li:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f080";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    color: #511de5;
+}
+
+.heading-list li.cloud-icon:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f382";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    color: #511de5;
+}
+
+
+.efficiency-section-padding a.boxed-btn {
+    padding: 13px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing:3px;
+    background: linear-gradient(90deg,    #511de5 , #009eff);
+    color: #fff;
+    margin-top: 70px;
+    text-transform: uppercase;
+    
+}
+
+.efficiency-section-padding .boxed-btn .svg-inline--fa{
+    padding-left: 10px;
+    width: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.effi-img-wrapper {
+    position: absolute;
+    right: -20px;
+    top: -60px;
+}
+
+
+
+/* ===========
+  Service Section
+=============== */
+
+.service-section-padding {
+    background: #fcfcfc;
+    padding: 120px 0;
+}
+
+.section-title h3 {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.section-title p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 130px;
+}
+
+.section-img {
+    background: #fcfcfc;
+    margin-bottom: 20px;
+}
+
+.service-text h5 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+}
+
+.services {
+    position: relative;
+}
+
+.services:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 287px;
+    background: #e3e3e3;
+    top: 30px;
+    left: 374px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+.services:after {
+    position: absolute;
+    content: "";width: 1px;
+    height: 287px;
+    background: #e3e3e3;top: 30px;
+    right: 384px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+
+
+/* ===========
+  Testimonial
+=============== */
+
+.quote-section-padding {
+    padding: 150px 0;
+}
+
+.section-title h2 {
+    font-size: 54px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.single-testimonial {
+    border: 1px solid #e9e9e9;
+    box-shadow: 0px 0px 5px #eee;
+    padding: 130px 25px 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+.single-testimonial:hover,
+.single-testimonial.active{
+    opacity: 1;
+    box-shadow: 0px 0px 10px #eee;
+}
+
+.single-testimonial:hover p:first-child,
+.single-testimonial p:first-child.active{
+    color: #0000ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-testimonial p {
+    margin-bottom: 100px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+.client-img img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+.single-testimonial h6.client-name {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+p.company {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    color: #676767;
+}
+
+.single-testimonial:after {
+    position: absolute;
+    content: "";
+    background: #eaeaea;
+    height: 1px;
+    width: 80%;
+    left: 25px;
+    top: 330px;
+}
+
+.single-testimonial:before {
+    position: absolute;
+    content: "\f10d";
+    top: -90px;
+    right: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 180px;
+    color: #f2f2f2;
+}
+
+
+
+
+/* ===========
+  Faq Section
+=============== */
+
+.faq-section-padding .pd-shadow{
+    padding: 130px;
+    box-shadow: 0px 0px 50px #eee;
+    
+    
+}
+
+
+.faq-section-padding h3 {
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 160px;
+}
+
+
+.card{
+    border: none;
+}
+
+.card-header {
+    padding: 10px 0px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    
+}
+
+
+/* .accordion>.card .card-header {
+    margin-bottom: 1px;
+} */
+
+button.btn-link.btn h6{
+    margin:0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button.btn.btn-link{
+    color: #0000ff;
+    text-decoration: none;
+    
+}
+
+button.btn.btn-link:hover {
+    text-decoration: none;
+}
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.btn.btn-link.collapsed{
+    color: #000000;
+}
+
+
+.faq-section-padding{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+/* ===========
+  Footer section
+=============== */
+ 
+
+
+.footer-bg{
+    background-image: url(assets/img/footer-bg.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 570px 0 130px;
+    position: absolute;
+    margin-top: -400px;
+    z-index: 0;
+}
+
+.footer-area .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.footer-nav ul li {
+    display: inline-block;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.footer-area p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-area p.excuse{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: -100px;
+    
+}
+
+
+
+
